@@ -43,6 +43,9 @@ public class MiPrimerProgramaG10 {
         ClsBodega bodega = new ClsBodega("BOD01", "Manizales", "La 51", 1000, responsable);
         
         
+        ClsTesorero tesorero = new ClsTesorero("xxx");
+        tesorero.obtenerValorCuenta();
+        
         /*
         ClsTapaBoca tapaboca = new ClsTapaBoca("T1", "Rojo", 5000);
 

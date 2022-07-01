@@ -24,7 +24,7 @@ public class ClsResponsable implements IEmpleado {
     }
 
     @Override
-    public double CalcularSalario() {
+    public double CalcularSalario(String tipo) {
        return 0;
     }
 

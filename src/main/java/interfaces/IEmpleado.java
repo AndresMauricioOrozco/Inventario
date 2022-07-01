@@ -6,6 +6,6 @@ package interfaces;
  */
 public interface IEmpleado {
     
-    public double CalcularSalario();
+    public double CalcularSalario(String tipo);
     public void Renunciar();
 }
