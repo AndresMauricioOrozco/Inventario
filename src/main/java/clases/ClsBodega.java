@@ -90,4 +90,14 @@ public class ClsBodega {
 
     }
 
+    public ClsResponsable getResponsable() {
+        return responsable;
+    }
+
+    public void setResponsable(ClsResponsable responsable) {
+        this.responsable = responsable;
+    }
+    
+    
+
 }

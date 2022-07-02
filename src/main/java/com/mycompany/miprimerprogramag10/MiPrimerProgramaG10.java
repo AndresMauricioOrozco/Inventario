@@ -35,7 +35,7 @@ public class MiPrimerProgramaG10 {
         responsable.nombre = "Julio";
         responsable.telefono = "5774883";
 
-         */
+        
         
         ClsResponsable responsable = new ClsResponsable("30000", "David",
                 "Operario", "320", "davidmintic@");
@@ -46,7 +46,7 @@ public class MiPrimerProgramaG10 {
         ClsTesorero tesorero = new ClsTesorero("xxx");
         tesorero.obtenerValorCuenta();
         
-        /*
+       
         ClsTapaBoca tapaboca = new ClsTapaBoca("T1", "Rojo", 5000);
 
         bodega.registrarEntrada(tapaboca);
@@ -62,6 +62,21 @@ public class MiPrimerProgramaG10 {
         System.out.println(bodega.mostrarInventario());
 
         */
+        
+        
+        ClsValidador validador = new ClsValidador();
+        
+        
+
+        String entradaUsuario = JOptionPane.showInputDialog(null, "Ingrese número", "Título para andres", 3);
+        
+        if(validador.esNumero(entradaUsuario)) {
+            int numero = Integer.parseInt(entradaUsuario);
+        
+        } else {
+            JOptionPane.showMessageDialog(null, "El dato que ingresaste no es númerico");
+        }
+        
 
     }
 }
